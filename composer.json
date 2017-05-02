@@ -1,0 +1,18 @@
+{
+    "name": "gravatalonga/silex-dotenv",
+    "description": "DotEnv Service Provider for Silex",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Fontes",
+            "email": "jonathan.alexey16@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"gravatalonga\\": "src/"}
+    },
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
